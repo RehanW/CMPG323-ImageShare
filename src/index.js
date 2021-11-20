@@ -1,16 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { HashRouter, Route, Router } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Upload from './containers/Upload'
+import Home from './containers/Home'
 import './index.css'
 
 const App = () => {
   return (
     <HashRouter>
-      <Router>
-        <Route path='/' component={Home}/>
+      <Routes>
         <Route path='/upload' component={Upload}/>
-      </Router>
+        <Route path='/' component={Home}/>
+      </Routes>
     </HashRouter>
   );
 }
