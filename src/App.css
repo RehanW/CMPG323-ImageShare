@@ -4,15 +4,26 @@
 
 .container {
   display: flex;
-  direction: column;
+  flex-direction: row;
 }
 
 .header {
-  background-color: yellow
+  background-color: yellow;
 }
 
 .connections {
   background-color: red;
   width: 500px;
   height: 800px;
+}
+
+.usersImages {
+  background-color: white;
+  width: 500px;
+}
+
+.suggestions {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
 }
