@@ -1,7 +1,7 @@
 import '../App.css'
 
 
-function Connections(){
+const Connections = () => {
     return (
       <div className="connections">
         <h1>Connections</h1>
